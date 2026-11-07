@@ -1,25 +1,26 @@
 /**
- * @name Neutron
- * @version 8.1
- * @description A simple but highly customizable theme, now sugar free!
- * @author Spectra
+ * @name Neutron Nova
+ * @version 9.0
+ * @description A highly customizable Vibrant Purple Space Theme, now sugar free!
+ * @author Cruxie + w1zard
  * @invite PZdnCVD
  * @source https://github.com/xcruxiex/themes
  * @website https://betterdiscord.app/theme/Neutron
  *//*
-$$\   $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\
-$$$\  $$ |$$  _____|$$ |  $$ |\__$$  __|$$  __$$\ $$  __$$\ $$$\  $$ |
-$$$$\ $$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ /  $$ |$$$$\ $$ |
-$$ $$\$$ |$$$$$\    $$ |  $$ |   $$ |   $$$$$$$  |$$ |  $$ |$$ $$\$$ |
-$$ \$$$$ |$$  __|   $$ |  $$ |   $$ |   $$  __$$< $$ |  $$ |$$ \$$$$ |
-$$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |
-$$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
-\__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|
+$$\   $$\ $$$$$$$$\ $$\   $$\ $$$$$$$$\ $$$$$$$\   $$$$$$\  $$\   $$\       $$\   $$\  $$$$$$\  $$\    $$\  $$$$$$\  
+$$$\  $$ |$$  _____|$$ |  $$ |\__$$  __|$$  __$$\ $$  __$$\ $$$\  $$ |      $$$\  $$ |$$  __$$\ $$ |   $$ |$$  __$$\ 
+$$$$\ $$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ /  $$ |$$$$\ $$ |      $$$$\ $$ |$$ /  $$ |$$ |   $$ |$$ /  $$ |
+$$ $$\$$ |$$$$$\    $$ |  $$ |   $$ |   $$$$$$$  |$$ |  $$ |$$ $$\$$ |      $$ $$\$$ |$$ |  $$ |\$$\  $$  |$$$$$$$$ |
+$$ \$$$$ |$$  __|   $$ |  $$ |   $$ |   $$  __$$< $$ |  $$ |$$ \$$$$ |      $$ \$$$$ |$$ |  $$ | \$$\$$  / $$  __$$ |
+$$ |\$$$ |$$ |      $$ |  $$ |   $$ |   $$ |  $$ |$$ |  $$ |$$ |\$$$ |      $$ |\$$$ |$$ |  $$ |  \$$$  /  $$ |  $$ |
+$$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |      $$ | \$$ | $$$$$$  |   \$  /   $$ |  $$ |
+\__|  \__|\________| \______/    \__|   \__|  \__| \______/ \__|  \__|      \__|  \__| \______/     \_/    \__|  \__|
 */
-@import url("https://xcruxiex.github.io/themes/themes-cores/neutron8.css");
+@import url("https://xcruxiex.github.io/themes/themes-cores/neutron.css");
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Custom font import link (see fonts.google.com) */
+@import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); /* Custom font import link (see fonts.google.com) */
 /*##########################################################################
 
                  CHANGE VALUES BELOW TO CUSTOMIZE YOU THEME
@@ -27,24 +28,24 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 ##########################################################################*/
 :root {
   /* COLORS */
-  --themeColor1: #36D1DC; /* Theme's color 1 */
-  --themeColor2: #5B86E5; /* Theme's color 2 */
+  --themeColor1: rgb(96, 62, 207); /* Theme's color 1 */
+  --themeColor2: rgb(80, 51, 173); /* Theme's color 2 */
 
   /* CUSTOM FONT */
-  --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
+  --customFont: 'Quicksand', monospace; /* Custom font, change the name in 'font name here', you must import the font first */
 
   /* HOME BUTTON */
-  --homeImage: url('https://imgur.com/eItxuAq.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImage: url('https://i.vgy.me/EHVyhc.jpg');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
   --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
 
   /* BACKGROUND */
-  --backgroundColor: #0d0d0d; /* Background color */
-  --backgroundImage: url('https://imgur.com/qhBghXt.png'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundImage: url('https://i.vgy.me/nRrqd7.jpg');/* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundColor: rgba(0, 0, 0, 0.6); /* Background color */
   --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
-  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
+  --backgroundSize: Cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
   --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
-  --backgroundBlur: 100px; /* Set to 0 to remove blur | Set to 10px for average blur */
-  --backgroundOpacity: .65; /* 0 is transparent */
+  --backgroundBlur: 0px; /* Set to 0 to remove blur | Set to 10px for average blur */
+  --backgroundOpacity: .5; /* 0 is transparent */
 
   /* CODE BLOCKS */
   --backgroundCode: rgba(0,0,0,.5);

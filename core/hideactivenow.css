@@ -1,0 +1,13 @@
+.nowPlayingColumn__133bf {
+    position: relative;
+    left: 350px ;
+    opacity: 1;
+    margin-left: -350px;
+    transition: .3s all ease-out;
+}
+.nowPlayingColumn__133bf:hover {
+    left: 0 ;
+    opacity: 1;
+    margin-left: 0;
+    transition: .3s all ease-out;
+}
